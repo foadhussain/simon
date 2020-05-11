@@ -52,8 +52,13 @@ h2{
 	background-color: 	#00FF00;
 }
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: pink;
+	margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: white
 }
 .game-over {
   background-color: red;

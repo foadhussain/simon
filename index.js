@@ -69,11 +69,11 @@ function correction(currentlevel){
   }
 
 
-  function animate(usercolor){
-    $("#"+usercolor).hide();
-    setTimeout(function(){
-      $("#" + usercolor).show();
-    }, 250);
+  function animate(currentColor){
+    $("#" + currentColor).addClass("pressed");
+  setTimeout(function () {
+    $("#" + currentColor).removeClass("pressed");
+  }, 100);
   }
   function playsound(usercolor){
     var audio = new Audio("sounds/" + usercolor + ".mp3");
