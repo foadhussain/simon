@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+}
+h1{
+	font-family: 'Comfortaa', cursive;
+	color: #FFDF00;
+	font-size:9rem;
+	text-align: center;
+	margin-top: 80px;
+}
+h3{
+	font-family: 'Comfortaa', cursive;
+	color: #FFDF00;
+	font-size:3rem;
+	text-align: center;
+	margin-top: 40px;
+}
+h2{
+	font-family: 'Comfortaa', cursive;
+	color: #FFDF00;
+	font-size:3rem;
+	text-align: center;
+
+
+}
+.button{
+	background-color: white;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 40px;
+	border-width: 8px;
+	border-color: 	#FFDF00;
+	margin: 30px;
+}
+
+.heading{
+	margin-top: 180px;
+}
+.boxes{
+	margin-top: 180px;
+}
+.button3{
+	background-color: yellow;
+}
+.button2{
+	background-color: red;
+}
+.button4{
+	background-color: #1464F4;
+}
+.button1{
+	background-color: 	#00FF00;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: pink;
+}
+.game-over {
+  background-color: red;
+  opacity: 1;
+}
