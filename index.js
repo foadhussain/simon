@@ -73,7 +73,7 @@ function correction(currentlevel){
     $("#"+usercolor).hide();
     setTimeout(function(){
       $("#" + usercolor).show();
-    }, 100);
+    }, 250);
   }
   function playsound(usercolor){
     var audio = new Audio("sounds/" + usercolor + ".mp3");
