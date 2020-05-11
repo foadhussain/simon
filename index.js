@@ -50,7 +50,7 @@ function correction(currentlevel){
         $("#again2").text("Refresh to restart");
         setTimeout(function(){
           $("body").removeClass("game-over");
-        },200);
+        },400);
 
 
       }
