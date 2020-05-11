@@ -70,9 +70,9 @@ function correction(currentlevel){
 
 
   function animate(usercolor){
-    $("#"+usercolor).addClass("pressed");
+    $("#"+usercolor).hide();
     setTimeout(function(){
-      $("#" + usercolor).removeClass("pressed");
+      $("#" + usercolor).show();
     }, 100);
   }
   function playsound(usercolor){
